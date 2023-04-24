@@ -52,7 +52,7 @@ public class JDBCInsert {
 			 * Connection 객체는 new 연산자를 통해 직접 생성하는 것이 아니라,
 			 * DriverManager 클래스가 제공하는 정적 메서드인 getConnection()을 호출하여 객체를 받아온다.
 			 * 
-			 */
+			 */ 
 			Connection conn = DriverManager.getConnection(url,uid,upw);
 			/*
 			 * b. PreparedStatement 객체.
